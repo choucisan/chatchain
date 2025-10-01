@@ -1,23 +1,22 @@
 ![](images/bot.png)
 
 
-# 基于LangChain实现的Chat Agent
+
+# Chat Agent Based on LangChain
+
+A web chat interface supporting multiple large language model (LLM) engines, built with Gradio and LangChain.
+Features include multi-turn memory, dynamic API key configuration, and automatic model loading.
+
+## 🔍 Project Overview
+- Supports multiple LLM engines (OpenAI, ZhipuAI, etc.) with easy extensibility
+- Each engine allows independent API key configuration
+- Multi-turn conversation chain implemented via LangChain with memory
+- Gradio interface supports dynamic engine switching and configuration saving
+- State retention: Remembers context for multi-turn dialogues
 
 
 
-支持多种大语言模型（LLM）引擎的 Web 聊天界面，基于 Gradio 和 LangChain 实现，具备多轮记忆能力、动态配置 api key、自动加载模型等功能。
-
-## 🔍 项目简介
-
-- 支持多个 LLM 引擎（OpenAI、ZhipuAI……）可拓展
-- 每个引擎支持独立 API Key 配置
-- 使用 LangChain 构建的带记忆的对话链
-- Gradio 界面支持动态切换引擎和保存配置
-- 状态保持：记住上下文，支持多轮对话
-
-
-
-## 🖥️ 界面展示
+## 🖥️ Interface Preview
 <p align="center">
   <img src="images/chat.png" alt="游戏演示" width="1000">
 </p>
@@ -25,7 +24,7 @@
 
 
 
-## 🚀 快速启动
+## 🚀 Quick Start
 
 ```bash
 pip install gradio langchain langchain_community
@@ -34,4 +33,4 @@ python app.py
 ```
 
 
-📮[choucisan@gmail.com]
+📧[choucisan@gmail.com]
